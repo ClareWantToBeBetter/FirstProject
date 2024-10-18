@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container-for-changing-content">
+   <p id="changing-text">The changing text is here</p>
+    <img id="kirby-image" src="O.jpg" alt="changing picture">
+</div>
+<div id="forms-block">
+    <form>
+        <label for="change-style">Change text style</label>
+        <select name="text-style" id="change-style">
+            <option value="none" selected>No style</option>
+            <option value="underline">underline</option>
+            <option value="line-through">line through</option>
+            <option value="overline">overline</option>
+        </select>
+
+        <label for="change-color">Change color</label>
+        <select name="text-font" id="change-color">
+            <option value="black" selected>black</option>
+            <option value="red">red</option>
+            <option value="pink">pink</option>
+            <option value="blue">blue</option>
+
+        </select>
+
+        <label for="change-decoration">Set decoration</label>
+        <select name="text-size" id="change-decoration">
+            <option value="none" selected>None</option>
+            <option value="double">Double</option>
+            <option value="wavy">Wavy</option>
+            <option value="dotted">Dotted</option>
+        </select>
+    </form>
+</div>
+<p>
+    here will be result:
+    <span id="result-output"></span>
+</p>
+<button onclick="getOption()">
+    Check option
+</button>
+<!-- Script -->
+<script src="app.js"></script>
+</body>
+</html>

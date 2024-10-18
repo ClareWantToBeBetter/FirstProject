@@ -1,0 +1,24 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    /*grid-template-rows: 1fr 2fr 1fr;*/
+    /*grid-template-columns: 1fr 1fr 2fr;*/
+    /*background-color: #010101;*/
+    /*color: #eee;*/
+    background-color: white;
+}
+#container-for-changing-content{
+    border: 6px solid red;
+    justify-content: center;
+    /*width: 80%; //for centering*/
+    margin: 0 auto;
+}
+#kirby-image{
+    border: 6px solid deeppink;
+    border-radius: 25%;
+}
+#forms-block{
+    background-color: indianred;
+    width: 100vw;
+    height: 50px;
+}
